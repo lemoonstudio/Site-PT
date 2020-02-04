@@ -1,0 +1,251 @@
+
+.underline
+{
+  border-bottom: 2px solid #FFF
+}
+.active
+{
+  font-weight: 900;
+}
+.no-border
+{
+  border: 0 !important;
+}
+.bold
+{
+  font-weight: 900
+}
+.hide
+{
+  display: none !important;
+}
+
+body
+{
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  position: relative;
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+.links-menu
+{
+  letter-spacing: 3px
+}
+
+
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.line-vertical {
+    width: 50px;
+    height: 1px;
+    margin-left: 40px;
+    background: #FFF;
+}
+.line-horizontal
+{
+  width: 100px;
+    height: 1px;
+    margin-left: 40px;
+    background: #FFF;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.horizontal-line-black {
+    width: 60px;
+    background: #000;
+    height: 1px;
+    margin-right: 20px;
+}
+
+#branding
+{
+  background: url(../images/brandind-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#ecommerce
+{
+  background: url(../images/ecommerce.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#fashion
+{
+  background: url(../images/fashion.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#whatwemade
+{
+  
+}
+
+.scroll-down {
+    position: fixed;
+    display: flex;
+    bottom: 40px;
+    align-items: center;
+    color: #FFF;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.scroll-down span {
+    margin-top: 7px;
+    letter-spacing: 3px;
+}
+.scroll-down img {
+    width: 30px;
+}
+.box-title {
+    text-align: right;
+}
+
+.text-lemoon {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 23px;
+    font-size: 11px;
+}
+
+span.mini-text {
+    width: 50%;
+    text-align: right;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.img-fake {
+    width: 100%;
+    background: #FFF;
+    height: 440px;
+}
+.horizontal-line-common {
+    width: 100%;
+    height: 1px;
+    background: #FFF;
+    margin-top: 40px;
+}
+.adress {
+    margin-bottom: 50px;
+}
+
+.lemoon-field {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #FFF;
+    background: #000;
+    border-right: 1px solid #FFF;
+    border-left: 0;
+    border-top: 0;
+    margin-bottom: 45px;
+    color: #FFF;
+
+}
+.lemoon-field-text {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #FFF;
+    background: #000;
+    border-right: 1px solid #FFF;
+    border-left: 0;
+    border-top: 0;
+    margin-bottom: 45px;
+    color: #FFF;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFF;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #FFF;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #FFF;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #FFF;
+}
+
+/* Content */
+.content-gallery {
+  background-color: white;
+  padding: 2%;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block !important;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+.botao {
+    border: 1px solid #FFF;
+    background: transparent;
+    color: #FFF;
+    letter-spacing: 3px;
+    float: right;
+    padding: 5px 15px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.column {
+  display: none; /* Hide columns by default */
+}
+
+
+#marketing
+{
+  background: url(../images/marketing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a.facebook-chat {
+    background: #000;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
