@@ -1,4 +1,3 @@
-
 .underline
 {
   border-bottom: 2px solid #FFF
@@ -117,9 +116,7 @@ body
 .scroll-down img {
     width: 30px;
 }
-.box-title {
-    text-align: right;
-}
+
 
 .text-lemoon {
     text-align: justify;
@@ -128,13 +125,6 @@ body
     font-size: 11px;
 }
 
-span.mini-text {
-    width: 50%;
-    text-align: right;
-    float: right;
-    line-height: 20px;
-    letter-spacing: 1px;
-}
 .img-fake {
     width: 100%;
     background: #FFF;
@@ -144,7 +134,7 @@ span.mini-text {
     width: 100%;
     height: 1px;
     background: #FFF;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .adress {
     margin-bottom: 50px;
@@ -248,4 +238,122 @@ a.facebook-chat {
     color: #FFF;
     text-decoration: none;
     margin-top: 10px;
+}
+.esquerda {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 750px) {
+  .esquerda {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.innerText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+@media (max-width: 750px) {
+  .innerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+h2.sub-title {
+  text-align: right;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 33px;
+  width: 100%;
+}
+@media (max-width: 750px) {
+  h2.sub-title {
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 33px;
+    width: 100%;
+  }
+}
+span.mini-text {
+  width: 50%;
+  text-align: right;
+  float: right;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+@media (max-width: 750px) {
+  span.mini-text {
+    width: 100%;
+    text-align: center;
+    float: right;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+}
+.box-title {
+  text-align: right;
+}
+@media (max-width: 750px) {
+  .box-title {
+    text-align: center;
+  }
+}
+.content-no-scroll {
+  width: 100%;
+  display: flex;
+  height: auto !important;
+  float: left;
+  clear: both;
+}
+ul.wrap-projects {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.behance-container svg {
+  width: 21px;
+}
+.wrap-title {
+  color: #000;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  font-size: 12px !important;
+}
+.wrap-owners-outer {
+  display: none !important;
+}
+.wrap-appreciations-outer {
+  display: none !important;
+}
+.wrap-views-outer {
+  display: none !important;
+}
+div#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+iframe#bx_form_iframe_1 {
+  height: 703px !important;
+  width: 100% !important;
+}
+.crm-webform-iframe {
+  background-color: #000;
 }

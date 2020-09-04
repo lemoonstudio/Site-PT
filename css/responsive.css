@@ -1,13 +1,13 @@
 
 @media (min-width: 0px) {
-.title-giant {
-    font-weight: 900;
-    font-size: 17px;
-    letter-spacing: 5px;
-    border-bottom: 1px solid #FFF;
-    padding-bottom: 30px;
-    margin-bottom: 0;
-}
+    .title-giant {
+        font-weight: 900;
+        font-size: 17px;
+        letter-spacing: 5px;
+        border-bottom: 1px solid #FFF;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
 .center-title {
     font-weight: 900;
     color: #FFF;
@@ -86,9 +86,6 @@
     text-decoration: none;
     font-size: 10px;
 }
-.top-responsive {
-    margin-top: 15vh;
-}
 .all-adress {
     height: 100%;
     width: 100%;
@@ -121,12 +118,7 @@ div#myBtnContainer {
     float: left;
     width: 50%;
 }
-h2.sub-title {
-    text-align: right;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 33px;
-}
+
 .content-home {
     width: 100%;
     height: 100vh;
@@ -175,13 +167,7 @@ span.texto-home-1 {
     right: 5%;
     width: 100%;
 }
-.content-no-scroll {
-    width: 100%;
-    display: flex;
-    height: 5407px !important;
-    float: left;
-    clear: both;
-}
+
 
 }
 @media (min-width: 768px) {
@@ -306,12 +292,7 @@ div#myBtnContainer {
     float: left;
     width: 50%;
 }
-h2.sub-title {
-    text-align: right;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
+
 .content-home {
     width: 100%;
     height: 100vh;
@@ -357,15 +338,9 @@ span.texto-home-1 {
     position: absolute;
     top: 11%;
     right: 5%;
-    width: 60%;
+    width: 80%;
 }
-.content-no-scroll {
-    width: 100%;
-    display: flex;
-    height: 6710px !important;
-    float: left;
-    clear: both;
-}
+
 
 }
 @media (min-width: 992px) { 
@@ -487,12 +462,7 @@ div#myBtnContainer {
   float: left;
   width: 25%;
 }
-h2.sub-title {
-    text-align: right;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
+
 .content-home {
     width: 100%;
     height: 100vh;
@@ -538,15 +508,9 @@ span.texto-home-1 {
     position: absolute;
     top: 11%;
     right: 5%;
-    width: 60%;
+    width: 80%;
 }
-.content-no-scroll {
-    width: 100%;
-    display: flex;
-    height: 6710px !important;
-    float: left;
-    clear: both;
-}
+
 
 }
 @media (min-width: 1200px) { 
@@ -668,12 +632,7 @@ div#myBtnContainer {
   float: left;
   width: 25%;
 }
-h2.sub-title {
-    text-align: right;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
+
 .content-home {
     width: 100%;
     height: 100vh;
@@ -720,15 +679,9 @@ span.texto-home-1 {
     position: absolute;
     top: 11%;
     right: 5%;
-    width: 60%;
+    width: 80%;
 }
-.content-no-scroll {
-    width: 100%;
-    display: flex;
-    height: 6710px !important;
-    float: left;
-    clear: both;
-}
+
 .column.destaque {
     width: 33%;
 }
@@ -852,12 +805,7 @@ div#myBtnContainer {
   float: left;
   width: 25%;
 }
-h2.sub-title {
-    text-align: right;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
+
 .content-home {
     width: 100%;
     height: 100vh;
@@ -904,14 +852,8 @@ span.texto-home-1 {
     position: absolute;
     top: 11%;
     right: 5%;
-    width: 60%;
+    width: 80%;
 }
-.content-no-scroll {
-    width: 100%;
-    display: flex;
-    height: 6710px !important;
-    float: left;
-    clear: both;
-}
+
 
 }
