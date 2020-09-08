@@ -59,7 +59,7 @@ $(document).ready(function() {
       $(".metaText").html(metaTextEN);
       $(".parceirosText").html(parceirosEN);
       $(".en").addClass("underline");
-      $(".role").html(roleEN);
+      $(".role").text(roleEN);
       
       
       
@@ -85,7 +85,7 @@ $(document).ready(function() {
       $(".metaText").html(metaTextPT);
       $(".parceirosText").html(parceirosPT);
       $(".pt").addClass("underline");
-        $(".role").html(rolePT);
+      $(".role").text(rolePT);
       
      }  
   });
