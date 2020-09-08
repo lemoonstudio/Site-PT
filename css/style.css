@@ -357,3 +357,7 @@ iframe#bx_form_iframe_1 {
 .crm-webform-iframe {
   background-color: #000;
 }
+p.ouputQuemsomos {
+  column-count: 3;
+  column-gap: 40px;
+}
