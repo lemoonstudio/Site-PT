@@ -1,3 +1,5 @@
+
+
 .underline
 {
   border-bottom: 2px solid #FFF
@@ -318,7 +320,7 @@ span.mini-text {
 }
 ul.wrap-projects {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
 }

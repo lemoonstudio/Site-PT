@@ -1,0 +1,241 @@
+body, html {
+  overflow-x: hidden;
+}
+
+/****************
+  blocos de intro
+ *****************/
+
+.bloco1 {
+  width: 100%;
+  height: 100vh;
+  background: #232323;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  animation: blocoOne 2s cubic-bezier(.74, .06, .4, .92) forwards;
+
+  @keyframes blocoOne {
+    0% {
+      width: 0%;
+      left: 0;
+
+    }
+    50% {
+      width: 100%;
+      left: 0;
+
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+}
+
+.bloco2 {
+  width: 0%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  animation: blocoTwo 2s cubic-bezier(.74, .06, .4, .92) forwards;
+  animation-delay: 1s;
+
+  @keyframes blocoTwo {
+    0% {
+      width: 0%;
+      left: 0;
+
+    }
+    50% {
+      width: 100%;
+      left: 0;
+
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+}
+
+
+/****************
+  Ajustes no responsivo
+ *****************/
+
+@media (max-width: 780px) {
+  /* Menu lateral - Horizontal*/
+  .side-nav {
+    position: fixed;
+    width: 100vh;
+    margin-left: 0px;
+    position: fixed;
+    -webkit-transform-origin: unset;
+    -webkit-transform: unset;
+    transform: unset;
+    align-items: center;
+    display: flex;
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    overflow-x: auto;
+    background: linear-gradient(rgba(219, 0, 0, 0) 0%, #000 100%);
+
+    > ul {
+      width: 100%;
+      display: flex;
+      overflow-x: auto;
+      width: 100vw;
+      height: inherit;
+      flex-wrap: unset;
+
+      > li {
+        float:unset;
+        height:unset;
+        line-height:unset;
+        display: unset;
+        position: unset;
+        z-index: 9999;
+        flex: 1 0 100%;
+        max-width: 105px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:last-child {
+          margin-right: -50px;
+        }
+      }
+    }
+  }
+
+  /* ABOUT */
+  #about {
+    height: unset;
+    padding: 50px 0px;
+
+    > .mg-left {
+      padding-left: 0;
+    }
+
+    > .container-fluid {
+      padding: 0 5%;
+    }
+
+    .text-lemoon {
+      p.ouputQuemsomos {
+        column-count: unset;
+      }
+    }
+  }
+
+  /* what we do */
+  #whatwedo {
+    > .content {
+      height: unset;
+      padding: 50px 0px 100px;
+
+      > .mg-left {
+        padding-left: 0;
+      }
+
+      > .container-fluid {
+        padding: 0 5%;
+      }
+
+      .text-lemoon {
+        p.ouputQuemsomos {
+          column-count: unset;
+        }
+      }
+    }
+  }
+
+  /* content fotografia */
+  .content-fotografia {
+
+    height: unset;
+    padding: 80px 0px 80px;
+
+    > .mg-left {
+      padding-left: 0;
+    }
+
+    > .container-fluid {
+      padding: 0 5%;
+    }
+  }
+
+  /* partners */
+  #partners {
+    height: unset;
+    padding: 50px 0px 50px;
+
+    > .mg-left {
+      padding-left: 0;
+    }
+
+    > .container-fluid {
+      padding: 0 5%;
+
+      .parceiros {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .parceirosText {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
+  /* what we made */
+  #whatwemade {
+    height: unset;
+    padding: 50px 0px 50px;
+
+    > .mg-left {
+      padding-left: 0;
+    }
+
+    > .container-fluid {
+      padding: 0 5%;
+
+    }
+  }
+
+  /* what we made */
+  #contact {
+    height: unset;
+    padding: 50px 0px 50px;
+
+    > .mg-left {
+      padding-left: 0;
+    }
+
+    > .container-fluid {
+      padding: 0 5%;
+
+      .adress {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        &:first-child {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+
