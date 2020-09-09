@@ -318,7 +318,7 @@ span.mini-text {
 }
 ul.wrap-projects {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
