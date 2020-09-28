@@ -17,6 +17,7 @@ var waitingPT = "FICAREMOS FELIZES <br>EM RECEBER SUA <br>MENSAGEM";
 var metaTextPT ="<h1>TEM<br>UMA META?</h1><h3>NÓS SABEMOS<br>COMO ALCANÇAR.</h3>";
 var parceirosPT ="Para realizar grandes resultados, sempre precisamos estar acompanhados dos melhores profissionais e ferramentas, além da equipe interna, a Lemoon conta  com centenas de colaboradores externos através do Shopify.";
 var rolePT ="ROLE PARA VER";
+var suportePT ="SUPPORT";
 
 var aboutEN = "Over 10 years ago, Lemoon agency started as a Web and Graphic Design company. Our job was to create designs for various market sectors. Few years after the company was founded, we realised that we had the potential to go beyond so we used our experience to expand our results actively. We then started to diversify our services. Where we only offered Web and Graphic Design, we added performance marketing, developing e-commerce and photography. With all these services combined we were able to plan and execute all digital aspects of a successful business. With over 100 delivered projects, we can either take on entire projects or work along with other teams. It doesn’t matter what’s your project, there will always be a way we’ll get it done for you. Be it with Design, Branding, Social Media, Performance Marketing, E-commerce Development, Photography or Consultancy. Count on us to help your business have the results you’ve always looked for.";
 var contactTextEN = "CONTACT";
@@ -37,6 +38,7 @@ var waitingEN = "WE'RE WAITING <br>FOR YOU.";
 var metaTextEN ="<h1>HAVE YOU GOT<br>A GOAL?</h1><h3>WE KNOW<br>HOW TO REACH IT!</h3>";
 var parceirosEN ="To reach big dreams you need to be surrounded by competent people and have all the proper tools. Besides our internal team, Lemoon counts on an army of highly skilled professionals through Shopify.";
 var roleEN ="SCROLL DOWN";
+var suporteEN ="SUPPORT";
 
 $(document).ready(function() {
     if (window.location.href.indexOf("?en") > -1) {
@@ -60,6 +62,7 @@ $(document).ready(function() {
       $(".parceirosText").html(parceirosEN);
       $(".en").addClass("underline");
       $(".role").text(roleEN);
+        $(".support").text(suporteEN);
       
       
       
@@ -86,6 +89,6 @@ $(document).ready(function() {
       $(".parceirosText").html(parceirosPT);
       $(".pt").addClass("underline");
       $(".role").text(rolePT);
-      
+      $(".support").text(suportePT);
      }  
   });
