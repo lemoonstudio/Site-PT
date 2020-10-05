@@ -248,3 +248,6 @@ div#landingPageTop p:before {
   section#marcas h2 {
     margin-bottom: 40px !important;
 }
+.top-nav {
+    display: sticky
+}
