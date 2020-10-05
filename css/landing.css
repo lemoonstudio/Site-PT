@@ -1,0 +1,250 @@
+body {
+    background-color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    position: relative;
+    color: #000;
+    letter-spacing: 2px;
+}
+.top-nav {
+    background: #000;
+    border-bottom: 1px solid #FFF;
+}
+.clickup-embed {
+    border: 0 !important;
+    margin-top: -34px;
+}
+div#landingPageTop {
+  color:#FFF
+}
+.bgTop {
+    background: #000;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 65vh;
+}
+@media (max-width: 750px) {
+    .bgTop {
+        background: #000;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 95vh;
+    }
+  }
+h2 {
+    font-weight: 900;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+@media (max-width: 750px) {
+    h2 {
+        font-weight: 400;
+        letter-spacing: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+  }
+.innerServico {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.esqServico {
+    width: 50%;
+    padding: 80px;
+    border-right: 1px solid #000;
+}
+@media (max-width: 750px) {
+    .esqServico {
+        width: 100%;
+        padding: 0;
+        border-right:0;
+    }
+  }
+.dirServico {
+    width: 50%;
+    padding: 80px;
+}
+@media (max-width: 750px) {
+    .dirServico {
+        width: 100%;
+        padding: 0;
+        margin-top: 40px;
+    }
+  }
+h4.titleLandigServ {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: right;
+}
+@media (max-width: 750px) {
+    h4.titleLandigServ {
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+    }
+  }
+span.subLandigServ {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media (max-width: 750px) {
+    span.subLandigServ {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+div#servicosLanding p {
+    text-align: justify;
+}
+.carrosselClientes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.carrosselClientes img {
+    padding: 45px;
+    width: 100%;
+}
+section#opiniao {
+    background: #eaeaea;
+}
+.opiniao {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.seguraOpina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+h4 {
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 33px;
+    letter-spacing: 6px;
+    margin-bottom: 0;
+}
+span.cargo {
+    border-bottom: 1px solid;
+}
+p.textoOpiniao {
+    margin-top: 20px;
+}
+section#where a {
+    color: #000;
+    width: 100%;
+}
+.brasilWhere , .portugalWhere {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+section#where {
+    padding: 80px 0;
+}
+footer {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 40px;
+    width: 75%;
+}
+@media (max-width: 750px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 40px;
+        width: 100%;
+    }
+  }
+div#landingPageTop p {
+    text-align: justify;
+    width: 70%;
+    padding-top: 40px;
+}
+@media (max-width: 750px) {
+    div#landingPageTop p {
+        text-align: justify;
+        width: 100%;
+        padding-top: 40px;
+    }
+  }
+div#landingPageTop p:before {
+    content: "";
+    width: 70px;
+    background: #FFF;
+    height: 1px;
+    position: absolute;
+    margin-top: -20px;
+}
+.quemOpinou img {
+    width: 90%;
+    max-width: 180px;
+    height: auto;
+}
+.swiper-container {
+    width: 90%;
+    max-width: 600px;
+
+}
+.swiper-slide {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.swiper-pagination-bullet-active {
+    background: #000 !important;
+}
+.trocado {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 750px) {
+    .trocado {
+        flex-direction: column;
+    }
+    
+  }
+  .swiper-containerBrands {
+    width: 100%;
+    overflow: hidden;
+}
+.trocado .esqServico {
+    border-left: 1px solid #000;
+    border-right: 0;
+}
+@media (max-width: 750px) {
+    .trocado .esqServico {
+        border-left: 0;
+        border-right: 0;
+    }
+    
+  }
+  #marcas
+  {
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+  section#marcas h2 {
+    margin-bottom: 40px !important;
+}
