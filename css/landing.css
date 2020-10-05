@@ -249,5 +249,6 @@ div#landingPageTop p:before {
     margin-bottom: 40px !important;
 }
 .top-nav {
-    display: sticky
+    display: sticky !important;
+    top:0;
 }
