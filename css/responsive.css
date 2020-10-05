@@ -67,7 +67,7 @@
     width: 100%;
     justify-content: space-between;
     padding: 0 14px 0 14px;
-    position: fixed;
+    position: sticky;
     height: 14vh;
     background: rgba(0,0,0,1);
     z-index: 9999;
@@ -236,7 +236,7 @@ span.texto-home-1 {
     width: 100%;
     justify-content: space-between;
     padding: 0 40px 0 40px;
-    position: fixed;
+    position: sticky;
     height: 15vh;
     background: rgba(0,0,0,1);
     z-index: 9999;
@@ -409,7 +409,7 @@ span.texto-home-1 {
     width: 100%;
     justify-content: space-between;
     padding: 0 40px 0 40px;
-    position: fixed;
+    position: sticky;
     height: 15vh;
     background: rgba(0,0,0,1);
     z-index: 9999;
@@ -579,7 +579,7 @@ span.texto-home-1 {
     width: 100%;
     justify-content: space-between;
     padding: 0 40px 0 40px;
-    position: fixed;
+    position: sticky;
     height: 15vh;
     background: rgba(0,0,0,1);
     z-index: 9999;
@@ -752,7 +752,7 @@ span.texto-home-1 {
     width: 100%;
     justify-content: space-between;
     padding: 0 40px 0 40px;
-    position: fixed;
+    position: sticky;
     height: 15vh;
     background: rgba(0,0,0,1);
     z-index: 9999;
