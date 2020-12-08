@@ -437,4 +437,12 @@ a.linkContato {
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
+    margin-bottom: 20px;
+}
+.holdContatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
