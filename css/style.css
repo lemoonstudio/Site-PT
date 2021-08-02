@@ -96,10 +96,7 @@ body
   -o-background-size: cover;
   background-size: cover;
 }
-#whatwemade
-{
-  
-}
+
 
 .scroll-down {
     position: fixed;
@@ -445,4 +442,11 @@ a.linkContato {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+.text-left
+{
+  text-align: left;
+}
+.links-menu a {
+  text-transform: uppercase;
 }
