@@ -450,3 +450,13 @@ a.linkContato {
 .links-menu a {
   text-transform: uppercase;
 }
+.fale-comigo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 90%;
+    max-width: 433px;
+}
+.fale-comigo img {
+    width: 100%;
+}
