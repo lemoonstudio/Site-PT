@@ -56,7 +56,7 @@
                     Envie uma mensagem
                     <img src="img/email.svg" alt="">
                 </a>
-                <a href="#" onclick="whatsapp.open()" class="botao_padrao">
+                <a href="#" onclick="abreWhatsApp()" class="botao_padrao">
                     Fale por WhatsApp
                     <img src="img/whatsapp.svg"">
                 </a>
@@ -102,5 +102,10 @@
                     <p>Rua da Boa Vista, 858, 1ª Andar - 4050-106 - Porto</p>
                 </div>        
             </div>
+            <script>
+                function abreWhatsApp() {
+                  document.getElementById('undefined').contentWindow.document.querySelector('.icon').click()
+                }
+            </script>
 </body>
 </html>
