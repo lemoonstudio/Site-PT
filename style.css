@@ -134,5 +134,5 @@ video
     margin-top: 20px;
 }
 .whatsapp .icon {
-    display: none;
+    display: none !important;
 }
