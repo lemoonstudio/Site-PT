@@ -1,0 +1,134 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4 ,h5 
+{
+    padding: 0;
+    margin: 0
+}
+h1 {
+    width: 50%;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 45px;
+}
+h4 {
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.mt-20
+{
+    margin-top: 20px;
+}
+.logotipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.logotipo img {
+    width: 60px;
+}
+.holdContent {
+    background: #000000d1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.content
+{
+    background: #FFF;
+    border-radius:5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 30px #000;
+    width: 75%;
+    max-width: 400px;
+    
+}
+.linha
+{
+    width: 40px;
+    height: 2px;
+    background: #000;
+    margin: 20px 0;
+}
+.cta
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.botao_padrao
+{
+    background: #000;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    -webkit-transition: ease-in-out 200ms;
+    -moz-transition: ease-in-out 200ms;
+    -ms-transition: ease-in-out 200ms;
+    -o-transition: ease-in-out 200ms;
+    transition: ease-in-out 200ms;
+}
+.botao_padrao:hover
+{
+    background: #77c792;
+    color: #FFF;
+    padding: 15px 25px;
+    -webkit-transition: ease-in-out 200ms;
+    -moz-transition: ease-in-out 200ms;
+    -ms-transition: ease-in-out 200ms;
+    -o-transition: ease-in-out 200ms;
+    transition: ease-in-out 200ms;
+}
+.botao_padrao img
+{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+#seo , #local{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 1200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+video
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#local a
+{
+    color: #000;
+}
+.local
+{
+    margin-top: 20px;
+}
